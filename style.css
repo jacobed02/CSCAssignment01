@@ -9,7 +9,8 @@
 
 .flex-item {
     flex: 1 1 30%;
-    background-color: blue;
+    background-color:rgba(255, 255, 255, 0.5);
+    border: 1px solid #ccc;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -21,4 +22,26 @@
     font-size: 18px;
     font-family:monospace;
 }
-<h4
+
+.activities {
+    background-image: url('https://img1.10bestmedia.com/Images/Photos/432991/Florida-State-Fair_54_990x660.jpg?auto=webp&width=3840&quality=75');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.activities ul {
+    list-style-type: circle;
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.activities h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+}
