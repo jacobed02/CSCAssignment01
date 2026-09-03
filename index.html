@@ -9,12 +9,12 @@
 </head>
 
 <body>
-    <header>
+    <header class="header"> <!--header class added to allow for styling of the header -->
         <img src="https://www.thomasville-nc.gov/_assets_/images/logo.png" alt="Thomasville City Fair Logo" width="50"
             height="50">
         <h1>Thomasville City Fair</h1>
     </header>
-    <main>
+    <main> <!-- main tag added to allow for styling of the main content -->
         <h3>Welcome to the Thomasville City Fair!</h3>
         <p>Gates Open From June 18th to June 21st, 2027</p>
         <p>Located at 123 Main Street, Thomasville, NC 27360</p>
@@ -23,45 +23,44 @@
             with excitement, delicious food, and unforgettable memories. We can't wait to see you there!</p>
     </main>
 
-    <hr>
-    <header name="activities">
+    <hr> <!--- horizontal rule added to separate the main content from the activities section -->
+    <header class="activity" id="activity"> <!-- header tag added to allow for styling of the activities section -->
         <h2>Activities</h2>
-
-        <section class="activities" id="flex-container">
-
-            <div class="flex-item" id="rides">
-                <h4><span style="border: 2px solid black; padding: 4px; background-color:white">Rides</span></h4>
-
-                <ul>
-                    <li>Ferris Wheel</li>
-                    <li>Roller Coaster</li>
-                    <li>Kiddie Carts</li>
-                </ul>
-            </div>
-            <div class="flex-item" id="food">
-                <h4><span style="border: 2px solid black; padding: 4px; background-color:white">Food</span></h4>
-                <ul>
-                    <li>Hot Dogs</li>
-                    <li>Funnel Cakes</li>
-                    <li>Cotton Candy</li>
-                </ul>
-            </div>
-            <div class="flex-item" id="games">
-                <h4><span style="border: 2px solid black; padding: 4px; background-color:white">Games</span></h4>
-                <ul>
-                    <li>Ring Toss</li>
-                    <li>Duck Pond</li>
-                    <li>Balloon Darts</li>
-                </ul>
-            </div>
-        </section>
     </header>
-    <hr>
-    <footer id="footer">
-        <p><strong>Hosted and Sponsored by the Thomasville City Council</strong></p>
-        <p><strong><em>*DISCLAIMER*: Please note this is not a real website and is for educational purposes
-                    only.</em></strong></p>
-    </footer>
+    <section class="activities" id="flex-container">
+
+        <div class="flex-item" id="rides">
+            <h4><span style="border: 2px solid black; padding: 4px; background-color:white">Rides</span></h4>
+
+            <ul>
+                <li>Ferris Wheel</li>
+                <li>Roller Coaster</li>
+                <li>Kiddie Carts</li>
+            </ul>
+        </div>
+        <div class="flex-item" id="food">
+            <h4><span style="border: 2px solid black; padding: 4px; background-color:white">Food</span></h4>
+            <ul>
+                <li>Hot Dogs</li>
+                <li>Funnel Cakes</li>
+                <li>Cotton Candy</li>
+            </ul>
+        </div>
+        <div class="flex-item" id="games">
+            <h4><span style="border: 2px solid black; padding: 4px; background-color:white">Games</span></h4>
+            <ul>
+                <li>Ring Toss</li>
+                <li>Duck Pond</li>
+                <li>Balloon Darts</li>
+            </ul>
+        </div>
+    </section>
+<hr>
+<footer id="footer">
+    <p><strong>Hosted and Sponsored by the Thomasville City Council</strong></p>
+    <p><strong><em>*DISCLAIMER*: Please note this is not a real website and is for educational purposes
+                only.</em></strong></p>
+</footer>
 </body>
 
 </html>
