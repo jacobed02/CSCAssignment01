@@ -14,14 +14,14 @@
     margin: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: black;
+    color: #404040;
     text-align: center;
     margin: 2px;
     height: 40%;
     width: 40%;
     max-width: 40%;
-    font-size: 18px;
-    font-family: monospace;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, Times, serif;
 }
 
 
@@ -43,19 +43,24 @@
     width: 50%;
     max-width: 70%;
     padding: 50px;
-    font-size: 18px;
+    font-size: 11pt;
+    color: #404040;
     text-align: center;
     margin-bottom: 20px;
     margin-left: 50px;
-
+    font-family: Georgia, Garamond, Times, serif;
     flex-wrap: nowrap;
 }
 
 .activities h4 {
-    font-size: 24px;
+    font-size: 22pt;
+    font-weight: bold;
     margin-bottom: 10px;
     margin-right: 70px;
     text-align: center;
+    text-decoration: underline;
+    font-family: Georgia, Garamond, Times, serif;
+
 }
 
 .activities oL,
@@ -67,7 +72,9 @@
     width: 50%;
     max-width: 70%;
     padding: 50px;
-    font-size: 18px;
+    font-size: 11pt;
+    color: #404040;
+    font-family: Georgia, Garamond, Times, serif;
     text-align: center;
     margin-bottom: 20px;
     margin-left: 50px;
@@ -84,24 +91,26 @@
     margin-bottom: 10px;
     margin-left: none;
     text-align: left;
-    font-size: 22px;
+    font-size: 22pt;
     font-weight: bold;
-    color: white;
-    -webkit-text-stroke: 1px #000000;
-    font-family: fantasy;
+    color: #A4A400;
+    font-family: Georgia, Garamond, Times, serif;
     font-style: italic;
     letter-spacing: 1.5px;
-    background-color: #333;
+    background-color: white;
 }
 
 #footer {
-    background-color: #333;
-    color: #fff;
+    background-color: white;
+    color: #404040;
     text-align: center;
     padding: 20px;
     position: relative;
     bottom: 0;
     width: 100%;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, Times, serif;
+;
 }
 
 .main h3 {
@@ -110,8 +119,11 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
     margin-left: 0px;
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 18pt;
+    font-weight: normal;
+    color: #A4A400;
+    text-decoration: underline;
+    font-family: Georgia, Garamond, Times, serif;
 }
 
 .main p {
@@ -120,12 +132,10 @@
     margin-bottom: 10px;
     margin-left: none;
     text-align: left;
-    font-size: 16px;
-    color: black;
-    -webkit-text-stroke: 1px #000000;
-    font-family: monospace;
+    font-size: 11pt;
+    color: #404040;
+    font-family: Georgia, Garamond, Times, serif;
     ;
-    letter-spacing: 1.5px;
 }
 
 .main {
@@ -133,13 +143,16 @@
 }
 
 .header h1 {
-    background-color: #333;
-    color: #fff;
+    font-family: Georgia, Garamond, Times, serif;
+    background-color: white;
+    color: #A4A400;
     text-align: center;
-    padding: 20px;
+    padding: 22pt;
+    font-weight: bold;
     position: relative;
     top: 0;
     width: 100%;
+    text-decoration: underline;
 }
 .flex-advice{
     flex: 1 1 33%;
@@ -149,12 +162,24 @@
     margin: 10px;
     border-radius: 5px;
     box-shadow: 0 20px 22px black;
-    color: black;
+    color: #404040;
     text-align: justify center;
     margin: 2px;
     height: 40%;
     width: 40%;
     max-width: 40%;
-    font-size: 18px;
-    font-family: monospace;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, Times, serif;
+}
+header#activity h2{
+    text-decoration: underline;
+    font-family: Georgia, Garamond, Times, serif;
+    font-size: 22pt;
+    font-weight: bold;
+}
+header#tips h2{
+    text-decoration: underline;
+    font-family: Georgia, Garamond, Times, serif;
+    font-size: 22pt;
+    font-weight: bold;
 }
