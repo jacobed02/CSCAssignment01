@@ -229,3 +229,17 @@ header#tips h2 {
 .return-home p {
     margin: 0;
 }
+div#reviews h2{
+    text-decoration: underline;
+    font-family: Georgia, Garamond, Times, serif;
+    font-size: 22pt;
+    font-weight: bold;
+    color: #A4A400;
+}
+div#reviews ul, li{
+    font-family: Georgia, Garamond, Times, serif;
+    color: #404040;
+    font-size: 11pt;
+    background-color: white;
+    text-indent: 1pt;
+}
