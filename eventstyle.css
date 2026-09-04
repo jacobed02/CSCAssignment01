@@ -8,27 +8,23 @@
 
 .flex-item {
     flex: 1 1 33%;
-    background-color:rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid #ccc;
     padding: 20px;
     margin: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        color: black;
+    color: black;
     text-align: center;
     margin: 2px;
     height: 90%;
     width: 40%;
     max-width: 40%;
     font-size: 18px;
-    font-family:monospace;
+    font-family: monospace;
 }
-.flex-item h4 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    margin-right: 70px;
-    text-align: center;
-}
+
+
 
 .activities {
     background-image: url('https://img1.10bestmedia.com/Images/Photos/432991/Florida-State-Fair_54_990x660.jpg?auto=webp&width=3840&quality=75');
@@ -37,6 +33,32 @@
     background-attachment: fixed;
     background-repeat: 80%;
 }
+
+.activities ul,
+.activities h4,
+.activities ol {
+    list-style-type: circle;
+    list-style-position: center;
+    padding-left: 0px;
+    width: 50%;
+    max-width: 70%;
+    padding: 50px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 50px;
+
+    flex-wrap: nowrap;
+}
+
+.activities h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-right: 70px;
+    text-align: center;
+}
+
+.activities oL,
 .activities ul {
     list-style-type: circle;
     list-style-position: center;
@@ -54,6 +76,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     flex-wrap: nowrap;
 }
+
 #activity {
     padding: 10px;
     border-left: 5px solid #000000;
@@ -69,7 +92,8 @@
     font-style: italic;
     letter-spacing: 1.5px;
     background-color: #333;
-}   
+}
+
 #footer {
     background-color: #333;
     color: #fff;
@@ -79,6 +103,7 @@
     bottom: 0;
     width: 100%;
 }
+
 .main h3 {
     padding: 20px;
     border-bottom: 4px dashed #000000;
@@ -88,6 +113,7 @@
     font-size: 24px;
     font-weight: bold;
 }
+
 .main p {
     padding: 10px;
     border-bottom: 15px solid #000000;
@@ -97,12 +123,15 @@
     font-size: 16px;
     color: black;
     -webkit-text-stroke: 1px #000000;
-    font-family: monospace;;
+    font-family: monospace;
+    ;
     letter-spacing: 1.5px;
 }
+
 .main {
-   border-left: 12px solid #000000;
+    border-left: 12px solid #000000;
 }
+
 .header h1 {
     background-color: #333;
     color: #fff;
@@ -112,6 +141,7 @@
     top: 0;
     width: 100%;
 }
+
 .header img {
     position: center;
 }
